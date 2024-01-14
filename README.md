@@ -25,4 +25,5 @@ Express
 -------------
 Se genero un API Rest el cual realiza la firma de un archivo pdf a partir de un certificado .p12, esta API cuenta con un apartado visual en [ip]:[port]/home, con la finalidad de hacer la carga y descarga del archivo de una forma más sencilla, haciendo uso de las librerias de [signPDF](https://github.com/vbuch/node-signpdf "signPDF"), asi mismo se hace uso de tokens para el manejo de la seguridad y haciendo uso de las librerias de JWT.
 
-###Fin
+Nota: Asegurese de tener creado las carpetas uploads y signed dentro de intelnexts, ya que en estas carpetas se guardaran los archivos subidos y firmados.
+
