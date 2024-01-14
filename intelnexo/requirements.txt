@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+python-multipart
+gunicorn
+python-dotenv
+paypal-checkout-serversdk
+python-jose[cryptography]
+passlib[bcrypt]

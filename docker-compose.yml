@@ -1,0 +1,13 @@
+version: '3.6'
+services:
+   api_fastapi:
+      build: ./intelnexo
+      ports:
+          - "8000:8000"
+   api_express:
+      build: ./intelnexts
+      restart: unless-stopped
+      ports:
+          - "3000:3000"
+      env_file:
+          - ./intelnexts/.env
