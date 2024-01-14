@@ -13,9 +13,13 @@ Para la ejecución en local para cada proyecto es necesario la instalacion del r
 
 FastAPI:
 - uvicorn main:app --reload --env-file=.env
+- Para obtener el token, el usuario y contraseña creado para las pruebas es "prueba".
+- El puerto por defecto es el 8000.
 
 Express:
 - npm run dev
+- Para obtener un token, es necesario realizar un post al path /auth/createToken, el cual recibe un json  { "username":"prueba"}
+- El puerto por defecto es el 3000.
 
 FastAPI
 -------------
